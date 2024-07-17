@@ -3,6 +3,12 @@ Tools for making music for the A5625 sound chip
 # how to use
 arseinter is the interpreter that converts .arse register dumps to .raw audio files
 arsemusint is the tool that interprets a .txt file to convert into .arse format
+first, clone the repository (you can use git or download the zip):
+if you use git to clone it, do this:
+```
+git clone https://github.com/host12prog/arsetools.git
+```
+otherwise, go to Code > Download ZIP
 build the arseinter tool first:
 ```
 gcc -o arseinter arseinter.c a5625.c
